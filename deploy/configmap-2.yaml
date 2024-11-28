@@ -18,7 +18,7 @@ data:
     <body>
     <h1>Welcome to ConfigMap Test!</h1>
 
-    <p>config_version: 1</p>
+    <p>config_version: 2</p>
 
     <p><em>Thank you for using nginx.</em></p>
     </body>
