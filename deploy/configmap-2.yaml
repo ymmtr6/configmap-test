@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-config
+data:
+  config_version: '2'
+  index: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Welcome to ConfigMap Test!</title>
+    <style>
+    html { color-scheme: light dark; }
+    body { width: 35em; margin: 0 auto;
+    font-family: Tahoma, Verdana, Arial, sans-serif; }
+    </style>
+    </head>
+    <body>
+    <h1>Welcome to ConfigMap Test!</h1>
+
+    <p>config_version: 1</p>
+
+    <p><em>Thank you for using nginx.</em></p>
+    </body>
+    </html>
